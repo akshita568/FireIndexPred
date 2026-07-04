@@ -41,8 +41,8 @@ def predict_datapoint():
         prediction = ridge_model.predict(new_data_scaled)
         result = round(prediction[0], 2)
         
-        # 4. Render home.html with the results matching the template flags
-        return render_template('home.html',prediction_text=True, result=f"Predicted FireIndex: {result}")
+        # 4. Render the dedicated result.html page with the score
+        return render_template('result.html', final_result=result)
     else:
         return render_template('home.html')
 
