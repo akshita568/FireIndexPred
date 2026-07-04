@@ -1,10 +1,9 @@
 # Algerian Forest Fire Prediction
 This project was my first experience developing and deploying a complete machine learning application.
----
+
 its basic machine learning web application that predicts the **Fire Weather Index (FWI)** using meteorological and environmental parameters from the **Algerian Forest Fires Dataset**. The application is built with **Flask** and powered by a **Ridge Regression** model trained using **scikit-learn**.
 
- **Live Demo:** https://algerian-fire-risk-predictor.onrender.com
----
+ **Live Demo**: https://algerian-fire-risk-predictor.onrender.com
 
 ## Overview
 
@@ -95,8 +94,8 @@ python app.py
 ```
 
 Once the server starts, open your browser and visit:
- http://127.0.0.1:5000
----
+http://127.0.0.1:5000
+
 
 ## Deployment
 
